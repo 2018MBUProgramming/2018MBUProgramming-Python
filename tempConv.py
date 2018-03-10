@@ -1,24 +1,21 @@
 def main():
     
-    cont = "y" # init cont to start loop
+    # Loop if user wants to convert another temp
     
-    # loop while cont is n, convert cont to lower
-        
-       #get input from user        
-        sDegF = 50
+    # get input from user        
+    sDegF = 50
 
-        #ERROR HANDLING
-        nDegF = float(sDegF)
-        
-        print("%0.1f Degrees Fahrenheit" % nDegF)
-        
-        nDegC = ( nDegF - 32) * 5 / 9
-        
-        print("%0.1f Degrees Centigrade" % nDegC)
-        
-       # IF - ELSE IF - ELSE Messages
-        
-        # check if user want to covert another temp
-        
+    # Error Handling
+    
+    nDegF = float(sDegF)
+    
+    print("%0.1f Degrees Fahrenheit" % nDegF)
+    
+    nDegC = ( nDegF - 32) * 5 / 9
+    
+    print("%0.1f Degrees Centigrade" % nDegC)
+    
+    # IF - ELSE IF - ELSE Messages
+    
 if __name__ == "__main__":
     main()
